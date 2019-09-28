@@ -15,6 +15,7 @@ def auth():
             ats = f.readline()
     else:
         # Caso o arquivo nao exista, as informacoes sao pedidas por input
+        print("Arquivo inexistente, autenticacao necessaria:")
         ck = input()
         cs = input()
         atk = input()
