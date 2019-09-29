@@ -32,6 +32,10 @@ def get_search_terms():
 
     words = words.rstrip("%20")
     print(words)
+    return words
 
-if __name__ == "__main__":
-    get_search_terms()
+def get_tweets(api):
+    rq = get_search_terms()
+    rq += "&f=live"
+    search = api.GetSearch(raw_query=rq)
+    print(search)
