@@ -1,0 +1,17 @@
+ALL
+universidade
+---
+ANY
+mamata
+balburdia
+maconha
+maconheiro
+esquerdista
+vagabundo
+libertinagem
+endoutrinacao
+---
+NONE
+censura
+bozo
+bolsominion
